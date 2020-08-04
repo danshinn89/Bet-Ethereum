@@ -1,5 +1,5 @@
 #Esports Bet-Ethereum
-Smart contract allows users to Bet on either Player 1 or Player 2. If they put ETH on the winner they are able to withdraw "POT" winnings back to their address. If not they lose the ETH bet.
+Smart contract allows users to Bet on either Player 1 or Player 2. If they put ETH on the winner they are able to withdraw "POT" winnings back to their address. If not they lose the ETH bet. *Originally designed to allows users to bet TOKENS instead of ETH*
 
 Owner Access:
 - Owner can set "Pot" by sending ETH to the function *Not yet implemented but not hard to do. Will be added in next release*
