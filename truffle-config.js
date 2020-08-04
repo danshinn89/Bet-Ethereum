@@ -26,14 +26,16 @@ module.exports = {
 
   goerli: {
     provider: function() {
-      return new HDWalletProvider("", "https://goerli.infura.io/v3/13f1920c404a4b338cd42ecf6ce3a485", MetaMaskAccountIndex)
+      //insert Mnuemonic & Goerli http address
+      return new HDWalletProvider("", "goerli", MetaMaskAccountIndex)
     },
     network_id: 5
   },
   
     ropsten: {
     provider: function() {
-      return new HDWalletProvider("", "https://ropsten.infura.io/v3/13f1920c404a4b338cd42ecf6ce3a485", MetaMaskAccountIndex)
+      //insert Mnuemonic & ropsten http address
+      return new HDWalletProvider("", "ropsten", MetaMaskAccountIndex)
     },
     network_id: 3
     },
@@ -48,4 +50,5 @@ module.exports = {
     }
   }
 }
+  
   
