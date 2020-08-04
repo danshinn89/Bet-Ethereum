@@ -4,6 +4,7 @@ Smart contract allows users to Bet on either Player 1 or Player 2. If they put E
 Owner Access:
 - Make Player1 win / Make Player 2 win
 - View Players bets
+- Kill contract (receive ETH left in contract) *Commented out for now. WIll put back in next release*
 
 
 Players Access:
@@ -11,3 +12,5 @@ Players Access:
 - View Bet (TeamA / TeamB)
 - Collect winnings
 - Withdraw funds (Funds cannot be withdrawn if user lost the bet)
+
+
