@@ -133,7 +133,7 @@ contract SportsBet {
         add = winners[j];
         betPlaced = playerInfo[add].amountBet;
         playerOdds = playerInfo[add].odds;
-        winners[j].transfer((betPlaced));
+        winners[j].transfer((bet*(10000+(loserBet*10000/winnerBet)))/10000 );
     }
     
     //reset data
